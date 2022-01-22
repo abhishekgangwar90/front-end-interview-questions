@@ -15,6 +15,10 @@ function memoize(func){
 }
 
 
+
+
+
+
 function fetchDataFromApi(a,b){
   console.log('Calling Apis with arguments', a,b)
   return new Promise((res, rej) =>{
