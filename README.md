@@ -8,8 +8,8 @@
 * implement array.some ✅
 * implement array.find ✅
 * implement array.reduce ✅
-* implement array.map Using array reduce 
-* implement array.filter using array reduce 
+* implement array.map Using array reduce ✅
+* implement array.filter using array reduce ✅
 * implement Fn.bind using call and apply ✅
 * implement Fn.call and Fn.apply ✅
 * implement Async Series
