@@ -7,10 +7,10 @@ function printFullName(lastName, city){
   return `${this.firstName} ${lastName} from ${city}`
 }
 
-Function.prototype.customBind = function(...args){
+Function.prototype.customBindFromApply = function(ref,...args){
   let func = this;
   return function(...args2){
-    return func.call(...args, ...args2);
+    return func.apply(ref, [...args, ...args2]);
   }
 }
 
@@ -20,6 +20,6 @@ console.log(originalBindFunc('Bangalore')) // 'Abhishek Gangwar from Bangalore'
 
 
 
-let customBindFunc = printFullName.customBind(x, 'Gangwar');
+let customBindFunc = printFullName.customBindFromApply(x, 'Gangwar');
 console.log(customBindFunc('Bangalore')) // 'Abhishek Gangwar from Bangalore'
 
