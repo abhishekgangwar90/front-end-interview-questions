@@ -7,10 +7,11 @@
 * implement array.Every ✅
 * implement array.some ✅
 * implement array.find ✅
+* implement array.reduce ✅
+* implement array.map Using array reduce 
+* implement array.filter using array reduce 
 * implement Fn.bind using call and apply ✅
 * implement Fn.call and Fn.apply ✅
-* Using array reduce implement map ✅
-* using array reduce implement filter
 * implement Async Series
 * implement Async parallel
 * Implement memoization
