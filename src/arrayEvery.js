@@ -7,17 +7,17 @@
 
 let arr = [1,2,3,4];
 
-Array.prototype.customFilter = function(cb){
-  let result = []
-  this.forEach((elm, index) =>{
-    if(cb(elm, index)){
-      result.push(elm)
+Array.prototype.customEvery = function(cb){
+  let arr = this;
+  for(let i=0; i<arr.length; i++){
+    if(!cb(arr[i])){
+      return false
     }
-  })
-  return result
+  }
+  return true
 }
 
-console.log(arr.filter((elm) => elm %2 === 0)) // [2,4];
-console.log(arr.customFilter((elm) => elm %2 === 0)) // [2,4];
+console.log(arr.every((elm) => elm %2 === 0)) // false;
+console.log(arr.customEvery((elm) => elm %2 === 0)) // false;
 
 
