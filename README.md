@@ -14,7 +14,7 @@
 * implement Fn.call and Fn.apply ✅
 * implement Async Series
 * implement Async parallel
-* Implement memoization
+* Implement memoization ✅
 * Implement an Event listener on array for push and pop
 * implement Promise.all
 * Binary Search
@@ -30,6 +30,5 @@
 * Infinite Scroll
 * Implement Inheritance with vanilla JS
 * Implement Event emitter
-* Implement Promise.all
 * Implement Array.sort()
 * Implement currying, nth currying
