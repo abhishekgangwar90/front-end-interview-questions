@@ -12,8 +12,6 @@
 * implement array.filter using array reduce ✅
 * implement Fn.bind using call and apply ✅
 * implement Fn.call and Fn.apply ✅
-* implement Async Series
-* implement Async parallel
 * Implement memoization ✅
 * Implement an Event listener on array for push and pop
 * implement Promise.all
